@@ -1,5 +1,5 @@
 const express = require('express');
-const transferRouter = require('./src/routes/transfer');
+const transferRouter = require('./src/routes/api');
 
 const app = express();
 app.use('/api', transferRouter);
